@@ -95,10 +95,12 @@
 
 .links2{
     background: url(/images/sprite.png);
+    background-repeat: no-repeat;
     width: 66px;
     height: 66px;
     display: inline-block;
     margin-left: 3vw;
+    justify-content: space-around;
 }
 
 #fb{
