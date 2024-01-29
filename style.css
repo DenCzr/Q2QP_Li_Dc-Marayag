@@ -30,6 +30,17 @@
     text-transform: uppercase;
 }
 
+.column0{
+    border: 1vw;
+    width: 25vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1vw;
+    margin-left: 2vw;
+    margin-top: 25vw;
+}
+
 .column1{
     border: 1vw;
     width: 25vw;
@@ -51,7 +62,7 @@
     display: inline-block;
     float: right;
     margin-right: 3vw;
-    margin-top: 2vw;
+    margin-top: vw;
 }
 
 .col2{
@@ -228,4 +239,22 @@ p{
 
 h1{
     font-family: 'Poor Story', system-ui;
+}
+
+.planet{
+    margin-top: 20vw;
+    background-image: url(images/planet.gif);
+    width: 20vw;
+    height:20vw;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    animation: leftgo 20s ease 0s infinite;
+    position: fixed;
+}
+
+@keyframes leftgo{
+    0% { transform: translate(-100%);}
+    100% { transform: translate(100vw);}
 }
